@@ -45,5 +45,5 @@ export class AppCache {
         return this.rateLimitResetTime;
     }
 
-    public static current = new AppCache(0,0,0,[]);
+    public static current = new AppCache(60,59,0,[]);
 };

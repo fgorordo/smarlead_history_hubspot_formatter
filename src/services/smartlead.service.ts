@@ -36,6 +36,7 @@ export const getLeadsEmailsOnCampaignByID = async (id: number, leadId: number) =
     const loading = loadingSpinner(`Fetching selected campaign emails`).start();
     const response = await SmartLeadApi.get<LeadEmails>(`/campaigns/${id}/leads/${leadId}/message-history?api_key=${ENVS.SMARTLEAD_API_KEY}`);
     const { data } = response;
-    loading.stop()
+    console.log(data);
+    loading.stop();
     return data;
 }
