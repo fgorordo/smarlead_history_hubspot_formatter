@@ -1,0 +1,9 @@
+﻿id,first_name,last_name,email,phone_number,company_name,website,location,custom_fields,linkedin_profile,company_url,is_unsubscribed,unsubscribed_client_id_map
+513201963,Priscilla,Arballo,parballo@tiendainglesa.com.uy,,Tienda Inglesa,,,,http://www.linkedin.com/in/priscilla-arballo-382295173,,FALSE,
+513201964,Sofia,Perez,sperez@tiendainglesa.com.uy,,Tienda Inglesa,,,,http://www.linkedin.com/in/sofia-perez-greenwood-5b86291a7,,FALSE,
+513201965,Jenifer,Cabrera,jenifer.cabrera@tata.com.uy,,TaTa S.A.,,,,http://www.linkedin.com/in/jenifer-cabrera-368936127,,FALSE,
+513201966,Micaela,Cavani,mcavani@tiendainglesa.com.uy,,Tienda Inglesa,,,,http://www.linkedin.com/in/micaela-cavani-9a5a2415a,,FALSE,
+538399318,Angel,Fernandez,angel.fernandez@ar.mcd.com,,mcd.com,,Argentina,,,,FALSE,
+538399321,Paulina,Quevedo,paulina.quevedo@synapsisbpo.com,,Synapsis | Tech BPO,,Uruguay,,,,FALSE,
+538399319,Mario,Dominguez,mario.dominguez@cl.mcd.com,,mcd.com,,Chile,,,,FALSE,
+538399320,Lorena,Garin,lorena.garin@ar.mcd.com,,mcd.com,,Argentina,,,,FALSE,

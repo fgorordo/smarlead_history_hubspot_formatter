@@ -4,7 +4,6 @@ import { getLeadsEmailsOnCampaignByID } from "../services/smartlead.service"
 import { formatEmailResponseData } from "./formatEmailResponseData";
 
 const generateReportForLead = (dataForReport: LeadEmails, leadId: number) => {
-    console.log(dataForReport);
     const {from, history, to} = dataForReport;
     const leadReport = history.map(email => {
         return {
@@ -20,10 +19,4 @@ const generateReportForLead = (dataForReport: LeadEmails, leadId: number) => {
     });
 
     return leadReport;
-}
-
-export const generateEmailReport = async (leadId: number, campaignId: number) => {
-    const dataForReport = await getLeadsEmailsOnCampaignByID(leadId, campaignId)
-    const report = generateReportForLead(dataForReport, leadId);
-    return report;
-}
+};
