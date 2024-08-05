@@ -18,10 +18,3 @@ export const smartleadResponseInterceptor = SmartLeadApi.interceptors.response.u
 }, (error) => {
     return Promise.reject(error);
 });
-
-// export const smartleadRequestInterceptor = SmartLeadApi.interceptors.request.use((request) => {
-//     const limit = AppCache.current.getLimitRemaining()
-//     return request
-// }, (error) => {
-//     return Promise.reject(error);
-// })

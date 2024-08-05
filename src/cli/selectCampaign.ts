@@ -9,7 +9,7 @@ export const selectCampaign = async (data: Campaigns) => {
     choices: data.map((campaign: Campaign) => {
       return {
         name: campaign.name || 'Unnamed campaign ID: #'+ campaign.id,
-        value: campaign.id
+        value: campaign.id,
       }
     })
   })
